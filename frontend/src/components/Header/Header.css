@@ -1,0 +1,27 @@
+.header {
+    background: url('./Winter-image.jpg');
+    height: 40vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    text-align: center;
+    animation: FadeIn 1.5s;
+}
+
+.header-contents {
+    margin-top: 15%;
+}
+
+.header-contents h2 {
+    font-size: 80px;
+    font-weight: 500;
+    color: white;
+    margin-bottom:20px;
+}
+
+.header-contents p {
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+}

@@ -1,0 +1,41 @@
+.Task {
+    background-color: #14141f;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+}
+.Task-title {
+    color: white;
+    margin: 20px;
+}
+.Task h2 {
+    color: white;
+    margin: 20px;
+}
+.Task hr {
+    border: 2px solid white;
+}
+
+.Task-duration {
+    color: white;
+    margin: 20px;
+}
+
+.reward {
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.Task button {
+    background: transparent;
+    font-size: 16px;
+    color: white;
+    border: 1px solid tomato;
+    padding: 5px 10px;
+    margin: 20px 0px;
+    border-radius: 30px;
+    cursor: pointer;
+}

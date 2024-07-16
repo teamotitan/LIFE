@@ -1,0 +1,24 @@
+.TaskList-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+.TaskList-container hr {
+    border: solid 1px black;
+}
+.TaskList-title {
+    margin: 30px;
+    font-weight: 300;
+    font-size: 40px;
+    color: black;
+}
+.TaskList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
